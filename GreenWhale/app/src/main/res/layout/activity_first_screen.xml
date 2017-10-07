@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_first_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="io.hive.FirstScreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+
+        <LinearLayout
+            android:id="@+id/texts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/leafw" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Welcome to \nGreenWhale."
+                android:textColor="#ffffff"
+                android:textSize="45sp" />
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true">
+
+            <Button
+                android:id="@+id/signup"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/white_back"
+                android:minWidth="200dp"
+                android:text="Signup"
+                android:textColor="@color/colorPrimary" />
+
+            <Button
+                android:id="@+id/login"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/signup"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:background="@drawable/yellow_back"
+                android:minWidth="200dp"
+                android:text="Login"
+                android:textColor="#ffffff" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

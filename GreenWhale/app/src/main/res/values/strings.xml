@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">GreenWhale</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_tag_tree">Map</string>
+    <string name="Signup">http://10.5.58.30:3038/api/user/register</string>
+    <string name="login">http://10.5.58.30:3038/api/user/login</string>
+    <string name="tag">http://10.5.58.30:3038/api/trees/mark</string>
+    <string name="care">http://10.5.58.30:3038/api/trees/claim</string>
+    <string name="list">http://10.5.58.30:3038/api/trees/list</string>
+    <string name="claimed">http://10.5.58.30:3038/api/user/list</string>
+    <string name="karma">http://10.5.58.30:3038/api/user/karma</string>
+    <string name="rewards">http://10.5.58.30:3038/api/user/rewards</string>
+    <string name="redeem">http://10.5.58.30:3038/api/user/redeem</string>
+    <string name="upload">http://10.5.58.30:3038/api/trees/upload</string>
+    <string name="title_activity_signup">Signup</string>
+    <string name="title_activity_care_tree">Map</string>
+    <string name="title_activity_sample">sample</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_locate">Map</string>
+    <string name="title_activity_maps">Map</string>
+
+
+</resources>
